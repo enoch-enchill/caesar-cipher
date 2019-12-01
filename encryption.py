@@ -27,7 +27,7 @@ def decrypt(ciphertext, key):
     return plaintext2
 
 def getkey(plaintext, ciphertext):
-	# get cipher key
+    # get cipher key
     keys = []
     plaintext.upper()
     ciphertext.upper()
